@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.App{
+background-color: black;
+min-height: 100vh;
+background-image: url("https://raw.githubusercontent.com/Harshrb2424/plexus-edit/refs/heads/main/assets/bg-pc.png");
+background-size: cover;        /* Ensures the image covers the entire screen */
+background-position: center;   /* Centers the image */
+background-repeat: no-repeat;  /* Prevents tiling if the image is smaller than the screen */
+background-attachment: fixed; 
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    color: white;
+}
+
+h1,h3,h4,h5,h6,p{
+    font-family: "Inter", sans-serif;
+}
+h1{
+    font-size: 82px;
+    text-transform: uppercase;
+    line-height: 82px;
+}
+h2 {
+    font-size: 32px;
+    font-family: "Kadwa", serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+ h3 {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 24px;
+  }
+  h5 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }

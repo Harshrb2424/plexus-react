@@ -1,0 +1,48 @@
+
+#home .plexusGlass img {
+  mix-blend-mode: lighten;
+}
+#home{
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+#home div{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+}
+
+#about-us{
+  padding: 0 5%;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  
+}
+#about-us div{
+  width: 50%;
+}
+
+
+#management, #association{
+  display: grid;
+  padding: 0 5%;
+  grid-template-columns: repeat(auto-fit, minmax(0, 450px));
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#management h1, #association h1{
+  grid-column: 1 / -1;
+}

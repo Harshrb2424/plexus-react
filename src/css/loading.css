@@ -1,0 +1,12 @@
+/* loading.css */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: rgba(23, 23, 23, 0.9); /* Optional semi-transparent background */
+  }
+  
+svg{
+    width: 200px;
+}
